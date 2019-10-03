@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
                    Shared UI code for xDesign Swift apps such as base TableViewController.
                    DESC
 
-  s.homepage     = "https://bitbucket.org/mtcmedia/espcuicommon"
+  s.homepage     = "https://espc.com"
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   #s.author         = { "Timothy Brand-Spencer" => "tim@xdesign.com" }
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   # s.tvos.deployment_target = "9.0"
   s.swift_version = "5.0"
 
-  s.source       = { :git => "https://bitbucket.org/mtcmedia/espcuicommon.git", :tag => "#{s.version}" }
+  s.source       = { :git => "ssh://git@git.espc.com:33/espcapp-ioscommon", :tag => "#{s.version}" }
 
   s.source_files  = "XDUICommon/**/*.swift"
   # s.resources     = "XDUICommon/**/*.xib"
